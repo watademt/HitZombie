@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bolt : MonoBehaviour
 {
     public Rigidbody Rigidbody;
+
     public void SetToRope(Transform ropeTransform)
     {
         transform.parent = ropeTransform;
