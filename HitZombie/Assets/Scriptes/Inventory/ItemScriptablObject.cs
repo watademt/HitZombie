@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum ItemType { Heal, Weapon, Material}
-public class ItemScriptabelObject : ScriptableObject
+public class ItemScriptableObject : ScriptableObject
 {
     public GameObject itemPrefab;
     public ItemType itemType;

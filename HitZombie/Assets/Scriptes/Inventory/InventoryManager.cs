@@ -8,8 +8,11 @@ public class InventoryManager : MonoBehaviour
     public Transform inventoryPanel;
     public List<InventorySlot> slots = new List<InventorySlot>();
     public bool isOpened;
+    private Camera mainCamera;
+    public float reachDistance = 3f;
     void Start()
     {
+        mainCamera = Camera.main;
         for(int i = 0; i < inventoryPanel.childCount; i++)
         {
             if(inventoryPanel.GetChild(i).GetComponent<InventorySlot>() != null)
@@ -32,6 +35,38 @@ public class InventoryManager : MonoBehaviour
             else
             {
                 Inventory.SetActive(false);
+            }
+        }
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, reachDistance))// && Input.GetKey(KeyCode.F))
+        {
+            if(hit.collider.gameObject.GetComponent<Item>()!= null)
+            {
+                AddItem(hit.collider.gameObject.GetComponent<Item>().item, hit.collider.gameObject.GetComponent<Item>().amount);
+                Destroy(hit.collider.gameObject);
+            }
+        } 
+    }
+    private void AddItem(ItemScriptableObject _item, int _amount)
+    {
+       foreach(InventorySlot slot in slots)
+        {
+            if(slot.item == _item)
+            {
+                slot.amount += _amount;
+                return;
+            }
+        }
+        
+        foreach (InventorySlot slot in slots)
+        {
+            if(slot.isEmpty == false)
+            {
+                slot.item = _item;
+                slot.amount = _amount;
+                slot.isEmpty = false;
+
             }
         }
     }

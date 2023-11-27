@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Material Item", menuName = "Inventory/Items/New Material Item")]
-public class MaterialItem : ItemScriptabelObject
+public class MaterialItem : ItemScriptableObject
 {
     private void Start()
     {

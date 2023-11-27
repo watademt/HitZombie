@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Heal Item", menuName = "Inventory/Items/New Heal Item")]
-public class HealItem : ItemScriptabelObject
+public class HealItem : ItemScriptableObject
 {
     public float healAmount;
     private void Start()
