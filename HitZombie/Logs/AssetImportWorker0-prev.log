@@ -15,7 +15,7 @@ G:/_GitHub/HitZombie/HitZombie/HitZombie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53282
+51062
 Successfully changed project path to: G:/_GitHub/HitZombie/HitZombie/HitZombie
 G:/_GitHub/HitZombie/HitZombie/HitZombie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ G:/_GitHub/HitZombie/HitZombie/HitZombie
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7848] Host "[IP] 192.168.69.147 [Port] 0 [Flags] 2 [Guid] 3492270965 [EditorId] 3492270965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2064] Host "[IP] 192.168.69.147 [Port] 0 [Flags] 2 [Guid] 123810484 [EditorId] 123810484 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7848] Host "[IP] 192.168.69.147 [Port] 0 [Flags] 2 [Guid] 3492270965 [EditorId] 3492270965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2064] Host "[IP] 192.168.69.147 [Port] 0 [Flags] 2 [Guid] 123810484 [EditorId] 123810484 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 20.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.6f1 (10bfa6201ced)
 [Subsystems] Discovering subsystems at path E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -67,43 +67,43 @@ Initialize mono
 Mono path[0] = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006042 seconds.
-- Loaded All Assemblies, in  0.540 seconds
+Registered in 0.004025 seconds.
+- Loaded All Assemblies, in  0.397 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.348 seconds
+- Finished resetting the current domain, in  0.312 seconds
 Domain Reload Profiling:
-	ReloadAssembly (370ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (242ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (183ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-				TypeCache.Initialize (162ms)
-					TypeCache.ScanAssembly (159ms)
-				ResolveRequiredComponents (2ms)
+			SetupTypeCache (150ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (146ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (273ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -111,644 +111,49 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.614 seconds
-Refreshing native plugins compatible for Editor in 13.79 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.317 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.837 seconds
+- Finished resetting the current domain, in  0.607 seconds
 Domain Reload Profiling:
-	ReloadAssembly (319ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (249ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (1297ms)
-			LoadAssemblies (584ms)
+		LoadAllAssembliesAndSetupDomain (1069ms)
+			LoadAssemblies (331ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (842ms)
-				TypeCache.Initialize (450ms)
-					TypeCache.ScanAssembly (438ms)
-				ResolveRequiredComponents (7ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (594ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (66.3 KB). Loaded Objects now: 3535.
-Memory consumption went from 479.4 MB to 479.3 MB.
-Total: 9.045400 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.132200 ms MarkObjects: 8.096200 ms  DeleteObjects: 0.315500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3775.030856 seconds.
-  path: Assets/Prefabs/Bolt.prefab
-  artifactKey: Guid(f44d6078196e5fd4896d7f682429a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bolt.prefab using Guid(f44d6078196e5fd4896d7f682429a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aecb481dc04ddb9eba453289e923ee') in 0.190789 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 4.350776 seconds.
-  path: Assets/Material
-  artifactKey: Guid(7a636a252a6068843af4e6acc6815169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(7a636a252a6068843af4e6acc6815169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2688863d7245725d527c88c34b33068d') in 0.000828 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.065604 seconds.
-  path: Assets/Material/New Material.mat
-  artifactKey: Guid(992c6f07ac6498c488544d59375e89a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/New Material.mat using Guid(992c6f07ac6498c488544d59375e89a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793bf7a99325414d5f60bf6dd36808d2') in 0.071253 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 7.611067 seconds.
-  path: Assets/Material/New Material 1.mat
-  artifactKey: Guid(f29d031d49ea39b468e29c2f90841538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/New Material 1.mat using Guid(f29d031d49ea39b468e29c2f90841538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2335c0a6aee70b9fa53a387baec8ff4') in 0.031597 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.646 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.245 seconds
-Domain Reload Profiling:
-	ReloadAssembly (228ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		LoadAllAssembliesAndSetupDomain (1419ms)
-			LoadAssemblies (362ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1119ms)
-				TypeCache.Initialize (338ms)
-					TypeCache.ScanAssembly (320ms)
+			SetupTypeCache (800ms)
+				TypeCache.Initialize (488ms)
+					TypeCache.ScanAssembly (480ms)
 				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (378ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.4 KB). Loaded Objects now: 3581.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 3.946700 ms (FindLiveObjects: 0.491600 ms CreateObjectMapping: 0.135800 ms MarkObjects: 3.250000 ms  DeleteObjects: 0.067700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.522 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (211ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		LoadAllAssembliesAndSetupDomain (1310ms)
-			LoadAssemblies (294ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1070ms)
-				TypeCache.Initialize (411ms)
-					TypeCache.ScanAssembly (398ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (478ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3584.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 6.234200 ms (FindLiveObjects: 0.895100 ms CreateObjectMapping: 0.200400 ms MarkObjects: 5.033400 ms  DeleteObjects: 0.100100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 132.102442 seconds.
-  path: Assets/Animations/AxeAtack.anim
-  artifactKey: Guid(b8707e145073fab4990bc90577c62132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/AxeAtack.anim using Guid(b8707e145073fab4990bc90577c62132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64155701751e8e9316567904b86230b') in 0.019647 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 19.311194 seconds.
-  path: Assets/Scriptes/AxeAttack.cs
-  artifactKey: Guid(b651a204f1fd81640a75e3462833efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptes/AxeAttack.cs using Guid(b651a204f1fd81640a75e3462833efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9507f2d39f30d95a9439742e627c4522') in 0.000837 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 39.369762 seconds.
-  path: Assets/Animations/Character.controller
-  artifactKey: Guid(9a35f244241e00e469b9334f8cdb2e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character.controller using Guid(9a35f244241e00e469b9334f8cdb2e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2f340e478b358e1a97a527d8be9274') in 0.010851 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.546 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.531 seconds
-Domain Reload Profiling:
-	ReloadAssembly (206ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (1340ms)
-			LoadAssemblies (319ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1076ms)
-				TypeCache.Initialize (427ms)
-					TypeCache.ScanAssembly (413ms)
-				ResolveRequiredComponents (10ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (534ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (31ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3587.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 5.186100 ms (FindLiveObjects: 0.436400 ms CreateObjectMapping: 0.100600 ms MarkObjects: 4.458400 ms  DeleteObjects: 0.187800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 154.167128 seconds.
-  path: Assets/Scriptes/AxeAttack.cs
-  artifactKey: Guid(b651a204f1fd81640a75e3462833efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptes/AxeAttack.cs using Guid(b651a204f1fd81640a75e3462833efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f1703742796413b4c5ac6d2bf7911') in 0.005142 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.020 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.971 seconds
-Domain Reload Profiling:
-	ReloadAssembly (208ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		LoadAllAssembliesAndSetupDomain (812ms)
-			LoadAssemblies (329ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (540ms)
-				TypeCache.Initialize (288ms)
-					TypeCache.ScanAssembly (282ms)
-				ResolveRequiredComponents (5ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (343ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3590.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 2.975900 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.481800 ms  DeleteObjects: 0.055300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.662 seconds
-Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.124 seconds
-Domain Reload Profiling:
-	ReloadAssembly (227ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		LoadAllAssembliesAndSetupDomain (1435ms)
-			LoadAssemblies (312ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1180ms)
-				TypeCache.Initialize (468ms)
-					TypeCache.ScanAssembly (457ms)
-				ResolveRequiredComponents (9ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (582ms)
+			SetupLoadedEditorAssemblies (391ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (12ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3593.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 5.952000 ms (FindLiveObjects: 0.782000 ms CreateObjectMapping: 0.098500 ms MarkObjects: 4.966100 ms  DeleteObjects: 0.102300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.310 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (208ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (1102ms)
-			LoadAssemblies (276ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (880ms)
-				TypeCache.Initialize (304ms)
-					TypeCache.ScanAssembly (297ms)
-				ResolveRequiredComponents (5ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (485ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (350ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3596.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 6.623500 ms (FindLiveObjects: 1.116500 ms CreateObjectMapping: 0.329800 ms MarkObjects: 5.082900 ms  DeleteObjects: 0.091300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.171 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.075 seconds
-Domain Reload Profiling:
-	ReloadAssembly (255ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		LoadAllAssembliesAndSetupDomain (916ms)
-			LoadAssemblies (367ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (634ms)
-				TypeCache.Initialize (316ms)
-					TypeCache.ScanAssembly (309ms)
-				ResolveRequiredComponents (6ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3599.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 4.194200 ms (FindLiveObjects: 0.725900 ms CreateObjectMapping: 0.230300 ms MarkObjects: 3.173800 ms  DeleteObjects: 0.062600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.471 seconds
-Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (208ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		LoadAllAssembliesAndSetupDomain (1263ms)
-			LoadAssemblies (286ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1032ms)
-				TypeCache.Initialize (396ms)
-					TypeCache.ScanAssembly (384ms)
-				ResolveRequiredComponents (10ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (600ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (458ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3602.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 5.468700 ms (FindLiveObjects: 0.823600 ms CreateObjectMapping: 0.204000 ms MarkObjects: 4.223200 ms  DeleteObjects: 0.215500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.029 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (208ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (821ms)
-			LoadAssemblies (319ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (556ms)
-				TypeCache.Initialize (295ms)
-					TypeCache.ScanAssembly (289ms)
-				ResolveRequiredComponents (6ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3605.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 3.068700 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.544300 ms  DeleteObjects: 0.057300 ms)
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (66.3 KB). Loaded Objects now: 3583.
+Memory consumption went from 486.0 MB to 486.0 MB.
+Total: 4.707900 ms (FindLiveObjects: 0.508200 ms CreateObjectMapping: 0.109300 ms MarkObjects: 3.919000 ms  DeleteObjects: 0.168900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -761,228 +166,507 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1726.362528 seconds.
+  path: Assets/Material/New Material 1.mat
+  artifactKey: Guid(f29d031d49ea39b468e29c2f90841538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material 1.mat using Guid(f29d031d49ea39b468e29c2f90841538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f50ae2e778c94077e4ae96c548b19b') in 0.133975 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(992c6f07ac6498c488544d59375e89a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material.mat using Guid(992c6f07ac6498c488544d59375e89a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7883cad6c8ef4a6e1c4ddae86d4f1ce5') in 0.018126 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.307142 seconds.
+  path: Assets/Russian Cars MP
+  artifactKey: Guid(2586b529d0d79de47b21fd3001520b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP using Guid(2586b529d0d79de47b21fd3001520b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2ab3b382fff78f57f3dbd7c946b790') in 0.000558 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.044434 seconds.
+  path: Assets/Russian Cars MP/Scenes
+  artifactKey: Guid(e47e07ed2c5136745b2ec519434bcbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Scenes using Guid(e47e07ed2c5136745b2ec519434bcbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6bce1d22b06236e1a9ef69f79f70db') in 0.000893 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.905807 seconds.
+  path: Assets/Russian Cars MP/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b27cae8a25a9bc8265959bcaf9ef6d7') in 0.000470 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.782809 seconds.
+  path: Assets/Russian Cars MP/Scenes/SampleScene
+  artifactKey: Guid(bd92ab2ae6dde4c43abd12355f731fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Scenes/SampleScene using Guid(bd92ab2ae6dde4c43abd12355f731fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1111c5d8bbc58915e457abb4be9a541') in 0.000759 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.069365 seconds.
+  path: Assets/Russian Cars MP/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(e3f2beae36dd11545bae0820e43f73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Scenes/SampleScene/LightingData.asset using Guid(e3f2beae36dd11545bae0820e43f73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e050d24b66587017dc38bca8bd8589') in 0.002086 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Russian Cars MP/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(bfd15f99ef7bbd8478fc897bb91f8cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(bfd15f99ef7bbd8478fc897bb91f8cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cffbe6316d60520d480f314479d6d9') in 0.045312 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.065713 seconds.
+  path: Assets/Russian Cars MP/Prefabs
+  artifactKey: Guid(dca5643044b6ba543abaa22c207ef6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs using Guid(dca5643044b6ba543abaa22c207ef6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90d9478cea03d6809caa4f78eaef824') in 0.000816 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059622 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Chaika.prefab
+  artifactKey: Guid(5b911b5d0a33ab342b452f167f5e2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Chaika.prefab using Guid(5b911b5d0a33ab342b452f167f5e2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1402d094d35bd54a5a0921fcbe7a52e2') in 0.048577 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Sputnik.prefab
+  artifactKey: Guid(383826f60922b5a4bb0a82738a55979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Sputnik.prefab using Guid(383826f60922b5a4bb0a82738a55979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4234ee211a468170581c116b4f9a775') in 0.027365 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Moscvich.prefab
+  artifactKey: Guid(2daf7256715266c4a9a22ce5c0f17077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Moscvich.prefab using Guid(2daf7256715266c4a9a22ce5c0f17077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe00ca1afb263a4ed42ad8bf2c9cc10') in 0.025069 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Zhiguli.prefab
+  artifactKey: Guid(57800445519d4a84bb1ac04164fec990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Zhiguli.prefab using Guid(57800445519d4a84bb1ac04164fec990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e502e815613c8e93ee4c75e4d0a81') in 0.023773 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Zaporojec.prefab
+  artifactKey: Guid(94489f0d237e9bd48881e69a0f2cdbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Zaporojec.prefab using Guid(94489f0d237e9bd48881e69a0f2cdbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb539c9d5a6651fd2a19548306b27c7') in 0.025179 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Pobeda.prefab
+  artifactKey: Guid(59d2065724ed2bf479a578960568cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Pobeda.prefab using Guid(59d2065724ed2bf479a578960568cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4724cb42afe49fa62f6586decf8a92') in 0.026250 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Volga.prefab
+  artifactKey: Guid(30f94455876733145b597b7823004218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Volga.prefab using Guid(30f94455876733145b597b7823004218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da7f5f3069ebadc45fbcf7d6735313') in 0.024101 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Russian Cars MP/Prefabs/Zil.prefab
+  artifactKey: Guid(b2806d3667efd5d4c82529f65aa499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Prefabs/Zil.prefab using Guid(b2806d3667efd5d4c82529f65aa499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd208ad94a37466858b8a534a894af762') in 0.027223 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 2.873138 seconds.
+  path: Assets/Russian Cars MP/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e1c00bf73e4fc01534b2ac2a904d8c') in 0.000630 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048089 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Chaika_1.mat
+  artifactKey: Guid(ffd000ae70b89cd47b057a69552f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Chaika_1.mat using Guid(ffd000ae70b89cd47b057a69552f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cfe4621dc2a9afd700d9e7cb3bda0d') in 0.014744 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Russian Cars MP/Materials/Chrome.mat
+  artifactKey: Guid(88a560ad80138b248b18a37ba2dc1227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Chrome.mat using Guid(88a560ad80138b248b18a37ba2dc1227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad66f009d2370e161e038be0449ffffa') in 0.010403 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Zil_1.mat
+  artifactKey: Guid(b0faf82c4dc40324c867586624957be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Zil_1.mat using Guid(b0faf82c4dc40324c867586624957be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d83915e7617c7ef3e8fb672eda509b1') in 0.008780 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Zil_2.mat
+  artifactKey: Guid(168cae7cd5d07d247bf2d5fe89d4595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Zil_2.mat using Guid(168cae7cd5d07d247bf2d5fe89d4595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e932208704ca03bdd9b7e9565e34f27') in 0.008604 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Russian Cars MP/Materials/Wheel_Tire_line.mat
+  artifactKey: Guid(475ab6a07ae768a45927fa6602a0547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Wheel_Tire_line.mat using Guid(475ab6a07ae768a45927fa6602a0547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad90c79b48b777fa33fbe7ce84f5e869') in 0.012858 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Russian Cars MP/Materials/Bottom_2.mat
+  artifactKey: Guid(34d83a84cc941af45a32e771a47a5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Bottom_2.mat using Guid(34d83a84cc941af45a32e771a47a5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a59eef227e5327bcac665ff1b967cb4') in 0.009638 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Russian Cars MP/Materials/Light_Orange.mat
+  artifactKey: Guid(6def8deff286e5f45b97bb569257ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Light_Orange.mat using Guid(6def8deff286e5f45b97bb569257ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124de00cca69a631cb49cfe97850278c') in 0.010460 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Volga_1.mat
+  artifactKey: Guid(e3aebf14ca4e60648bf2fba1cd4ca5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Volga_1.mat using Guid(e3aebf14ca4e60648bf2fba1cd4ca5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6797c671fca2e278926ebf8536b5eba3') in 0.008718 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Zhiguli.mat
+  artifactKey: Guid(1edb0bc1791cb4041a91d9ee8661f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Zhiguli.mat using Guid(1edb0bc1791cb4041a91d9ee8661f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1b6c4586e8cbf3d03e8da890107f09') in 0.009749 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Russian Cars MP/Materials/Wheel_Disk.mat
+  artifactKey: Guid(0d7eb709e422c8a4295dedcfa68ac36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Wheel_Disk.mat using Guid(0d7eb709e422c8a4295dedcfa68ac36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13358c15d20897a7719220f9afbf330') in 0.014688 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Pobeda_1.mat
+  artifactKey: Guid(19c386f2556f09c4194607e296c10ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Pobeda_1.mat using Guid(19c386f2556f09c4194607e296c10ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d66ed93c7ae4f9bc15f07158579665c') in 0.009470 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Russian Cars MP/Materials/Bottom_1.mat
+  artifactKey: Guid(3f2a229dbdd446847b6b1488b510d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Bottom_1.mat using Guid(3f2a229dbdd446847b6b1488b510d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb776555bda165b0c250ca882ed4bfd') in 0.010642 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Chaika_2.mat
+  artifactKey: Guid(cfb7b414c49b3264ba833b46e82e807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Chaika_2.mat using Guid(cfb7b414c49b3264ba833b46e82e807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffeddb58d285b9dddd422e8d94ef93f') in 0.009978 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Russian Cars MP/Materials/Wheel_Tire.mat
+  artifactKey: Guid(d7c0cdbe83444b245b03b25117bd6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Wheel_Tire.mat using Guid(d7c0cdbe83444b245b03b25117bd6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb13e10cf13b155030613e727f34ce0') in 0.010986 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Russian Cars MP/Materials/Plastic.mat
+  artifactKey: Guid(af09388677d18fd41a9a8e106adadf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Plastic.mat using Guid(af09388677d18fd41a9a8e106adadf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dd68cf91cb4e83e7af2a26cc3c41b6') in 0.010058 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Sputnik.mat
+  artifactKey: Guid(5ed59138cf3ed394a8e549564a50c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Sputnik.mat using Guid(5ed59138cf3ed394a8e549564a50c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef84b226493c523fcc836cec0879b5e') in 0.010001 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Volga_2.mat
+  artifactKey: Guid(a79e793af6082cf4e8628d063e72bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Volga_2.mat using Guid(a79e793af6082cf4e8628d063e72bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef17a576b4d3487218c5b64219f028') in 0.008742 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Moscvich_2.mat
+  artifactKey: Guid(f024bcd554e632345ac1e2fe964e8dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Moscvich_2.mat using Guid(f024bcd554e632345ac1e2fe964e8dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbee15b3df50f4b2f9e5cbe8013605') in 0.011176 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Russian Cars MP/Materials/Glass.mat
+  artifactKey: Guid(b0252b892ca7ccb449f7ce064be4b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Glass.mat using Guid(b0252b892ca7ccb449f7ce064be4b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19934a3453356b8ebf1031c0ca4d31c1') in 0.009908 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Pobeda_2.mat
+  artifactKey: Guid(091ee67ee6f9be64ea13fa36eb03e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Pobeda_2.mat using Guid(091ee67ee6f9be64ea13fa36eb03e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba99053759502b6a95d94d9bd47cd21') in 0.012824 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Moscvich_1.mat
+  artifactKey: Guid(225b70aa420dd5844a1ab4e65521d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Moscvich_1.mat using Guid(225b70aa420dd5844a1ab4e65521d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef01f93121dea8e5cd6aca7b2ec98fc') in 0.008755 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Russian Cars MP/Materials/Light_Red.mat
+  artifactKey: Guid(8fbb4537daf4f234aac052c69a6bc9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Light_Red.mat using Guid(8fbb4537daf4f234aac052c69a6bc9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4ac09a05ba5f2415c8deeb966f7f79') in 0.011344 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Zaporojec_2.mat
+  artifactKey: Guid(622e43fc09f831b4181b4ef65f48eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Zaporojec_2.mat using Guid(622e43fc09f831b4181b4ef65f48eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c204b5338cdaeb57977897c35b483e') in 0.009438 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Russian Cars MP/Materials/Light_White.mat
+  artifactKey: Guid(f4d6f5aeda9af524dafd79ab5178e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Light_White.mat using Guid(f4d6f5aeda9af524dafd79ab5178e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86edca509c9aa33a361499b61255e0d0') in 0.009565 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Russian Cars MP/Materials/Body_Zaporojec_1.mat
+  artifactKey: Guid(f025c05aa502f454fb083ac5bc8c81ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Body_Zaporojec_1.mat using Guid(f025c05aa502f454fb083ac5bc8c81ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb23790ecd92e3656658f97e2caa5077') in 0.011965 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Russian Cars MP/Materials/Light_Yellow.mat
+  artifactKey: Guid(1daf13ce75f72ae419b408e99094f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Materials/Light_Yellow.mat using Guid(1daf13ce75f72ae419b408e99094f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bfbec46eb2c50693ab1a48b6ab8484') in 0.009764 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.951287 seconds.
+  path: Assets/Russian Cars MP/Meshes
+  artifactKey: Guid(d2d4f5051f35e8440b0c9fc0900ae54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes using Guid(d2d4f5051f35e8440b0c9fc0900ae54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a16d8ddd4a5dd786674a8a5fec0e58') in 0.000700 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081016 seconds.
+  path: Assets/Russian Cars MP/Meshes/Chaika.fbx
+  artifactKey: Guid(e2a0e4ddf3359fe45b2dab7e0d1b4997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Chaika.fbx using Guid(e2a0e4ddf3359fe45b2dab7e0d1b4997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce76bd22b4e389e86a70718cdcd9db9e') in 0.111973 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Russian Cars MP/Meshes/Zil.fbx
+  artifactKey: Guid(723d76cf67119584cbfd10193f6f91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Zil.fbx using Guid(723d76cf67119584cbfd10193f6f91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f239dcf2e72a134a7b42136131ebbdde') in 0.087672 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Russian Cars MP/Meshes/Zhiguli.fbx
+  artifactKey: Guid(ee99d23e4cd41fc4e98be990a7e19093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Zhiguli.fbx using Guid(ee99d23e4cd41fc4e98be990a7e19093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb58dafba37b1a769e5d068c113ea47') in 0.086058 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Russian Cars MP/Meshes/Volga.fbx
+  artifactKey: Guid(c53ac10ed80c49b41b6922d511b777b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Volga.fbx using Guid(c53ac10ed80c49b41b6922d511b777b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad392189b91f5e0f005be68799f4fec') in 0.082498 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Russian Cars MP/Meshes/Zaporojec.fbx
+  artifactKey: Guid(4a9d916ad5c8cf7418e48176759ac527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Zaporojec.fbx using Guid(4a9d916ad5c8cf7418e48176759ac527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01def0b15e40a5f2aec0b2d2c57f126b') in 0.065832 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Russian Cars MP/Meshes/Moscvich.fbx
+  artifactKey: Guid(3f070cc44a9836d47a00434e707bf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Moscvich.fbx using Guid(3f070cc44a9836d47a00434e707bf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2e0f8c9f17bbb3b9a2dc024760ddef') in 0.069032 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Russian Cars MP/Meshes/Sputnik.fbx
+  artifactKey: Guid(be80a020fb647bf409e4a71afd726a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Sputnik.fbx using Guid(be80a020fb647bf409e4a71afd726a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45f07a1bc2f5357d3f4fe1f3f12352c') in 0.070672 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Russian Cars MP/Meshes/Pobeda.fbx
+  artifactKey: Guid(3b96195604a7d62429f743955e2c247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Russian Cars MP/Meshes/Pobeda.fbx using Guid(3b96195604a7d62429f743955e2c247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fe11f5f3be8e2d0cabc9383dac4dcd') in 0.070388 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 44.947640 seconds.
+  path: Assets/Scenes/TestPolygon
+  artifactKey: Guid(5eff9449eee8baa48815de9f1d2f520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestPolygon using Guid(5eff9449eee8baa48815de9f1d2f520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb68087ecedeb186a42da4ff3b7ba4a4') in 0.001027 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077648 seconds.
+  path: Assets/Scenes/TestPolygon/NavMesh-Environment.asset
+  artifactKey: Guid(8f9d625375188d946a69b72130052779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestPolygon/NavMesh-Environment.asset using Guid(8f9d625375188d946a69b72130052779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccd585cbe6a230c84950e30c13a14f9') in 0.001960 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.282971 seconds.
+  path: Assets/Scenes/Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8581d350a8e891934faf6af1513077c2') in 0.000669 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.942032 seconds.
+  path: Assets/Scenes/TestPolygon.unity
+  artifactKey: Guid(fa023fccf08fe034b8386785082d1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestPolygon.unity using Guid(fa023fccf08fe034b8386785082d1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c3fc96cd96a629a8b321e644847ed1') in 0.000672 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.391 seconds
-Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.211 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (208ms)
+	ReloadAssembly (207ms)
 		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		LoadAllAssembliesAndSetupDomain (1183ms)
-			LoadAssemblies (256ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (982ms)
-				TypeCache.Initialize (383ms)
-					TypeCache.ScanAssembly (371ms)
-				ResolveRequiredComponents (6ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (513ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (360ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3608.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 6.789600 ms (FindLiveObjects: 0.955000 ms CreateObjectMapping: 0.249500 ms MarkObjects: 5.390300 ms  DeleteObjects: 0.191400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.692 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.108 seconds
-Domain Reload Profiling:
-	ReloadAssembly (209ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (40ms)
-		LoadAllAssembliesAndSetupDomain (1483ms)
-			LoadAssemblies (332ms)
+		LoadAllAssembliesAndSetupDomain (1004ms)
+			LoadAssemblies (274ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1210ms)
-				TypeCache.Initialize (582ms)
-					TypeCache.ScanAssembly (567ms)
-				ResolveRequiredComponents (6ms)
+			SetupTypeCache (790ms)
+				TypeCache.Initialize (302ms)
+					TypeCache.ScanAssembly (293ms)
+				ResolveRequiredComponents (10ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (544ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (397ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3611.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 3.743800 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.099200 ms MarkObjects: 3.174300 ms  DeleteObjects: 0.117500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.363 seconds
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.483 seconds
-Domain Reload Profiling:
-	ReloadAssembly (228ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (1135ms)
-			LoadAssemblies (333ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (863ms)
-				TypeCache.Initialize (300ms)
-					TypeCache.ScanAssembly (290ms)
-				ResolveRequiredComponents (6ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (492ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (9ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (350ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3614.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 5.775400 ms (FindLiveObjects: 0.820300 ms CreateObjectMapping: 0.280500 ms MarkObjects: 4.369300 ms  DeleteObjects: 0.302900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.459 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.050 seconds
-Domain Reload Profiling:
-	ReloadAssembly (217ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (1242ms)
-			LoadAssemblies (271ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1031ms)
-				TypeCache.Initialize (422ms)
-					TypeCache.ScanAssembly (411ms)
-				ResolveRequiredComponents (5ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (522ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (382ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (32.3 KB). Loaded Objects now: 3617.
-Memory consumption went from 483.1 MB to 483.1 MB.
-Total: 7.052600 ms (FindLiveObjects: 1.537200 ms CreateObjectMapping: 0.422800 ms MarkObjects: 5.011400 ms  DeleteObjects: 0.078900 ms)
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (33.2 KB). Loaded Objects now: 3632.
+Memory consumption went from 490.6 MB to 490.5 MB.
+Total: 6.136900 ms (FindLiveObjects: 0.834200 ms CreateObjectMapping: 0.226500 ms MarkObjects: 4.985800 ms  DeleteObjects: 0.088000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
