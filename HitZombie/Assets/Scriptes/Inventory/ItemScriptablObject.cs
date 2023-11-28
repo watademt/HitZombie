@@ -9,5 +9,6 @@ public class ItemScriptableObject : ScriptableObject
     public ItemType itemType;
     public string itemName;
     public int maxAmount;
+    public Sprite icon;
 
 }
