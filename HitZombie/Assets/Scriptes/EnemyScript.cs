@@ -6,7 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     public Animator animator;
     public Rigidbody[] allRigidbodies;
-    public int HP = 100;
+    private int HP = 100;
 
     private void Awake()
     {
@@ -15,12 +15,21 @@ public class EnemyScript : MonoBehaviour
             allRigidbodies[i].isKinematic = true;
         }
     }
+    void Update()
+    {
+        if (HP <= 0) Death();
+    }
     public void Death()
     {
+        GetComponent<Collider>().enabled = false;
         animator.enabled = false;
         for (int i = 0; i < allRigidbodies.Length; i++)
         {
             allRigidbodies[i].isKinematic=false;
         }
+    }
+    public void TakeDamage(int damageAmount)
+    {
+        HP-=damageAmount;
     }
 }

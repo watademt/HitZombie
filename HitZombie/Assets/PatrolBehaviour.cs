@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class PatrolBehaviour : StateMachineBehaviour
 {
     float timer;
+    public int x;
     List<Transform> points = new List<Transform>();
     NavMeshAgent agent;
     Transform player;
@@ -32,9 +33,10 @@ public class PatrolBehaviour : StateMachineBehaviour
             agent.SetDestination(points[Random.Range(0,points.Count)].position);
         }
         timer += Time.deltaTime;
-        if (timer > 20)
+        if (timer > x)
         {
             animator.SetBool("IsPatrolling", false);
+            x = Random.Range(10, 30);
         }
         float distance = Vector3.Distance(animator.transform.position, player.position);
         if (distance < chaseRange)
