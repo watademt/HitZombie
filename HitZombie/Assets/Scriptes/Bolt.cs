@@ -9,7 +9,7 @@ public class Bolt : MonoBehaviour
     public void SetToRope(Transform ropeTransform)
     {
         transform.parent = ropeTransform;
-        transform.localPosition = new Vector3(0f,1f,0.388f);
+        transform.localPosition = new Vector3(0f, 0f, 0f);
         transform.localRotation = Quaternion.identity;
 
         Rigidbody.isKinematic = true;
