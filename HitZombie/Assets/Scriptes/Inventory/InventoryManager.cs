@@ -8,11 +8,10 @@ public class InventoryManager : MonoBehaviour
     public Transform inventoryPanel;
     public List<InventorySlot> slots = new List<InventorySlot>();
     public bool isOpened;
-    private Camera mainCamera;
+    public Camera mainCamera;
     public float reachDistance = 3f;
     void Start()
     {
-        mainCamera = Camera.main;
         for (int i = 0; i < inventoryPanel.childCount; i++)
         {
             if (inventoryPanel.GetChild(i).GetComponent<InventorySlot>() != null)
@@ -32,11 +31,14 @@ public class InventoryManager : MonoBehaviour
             {
                 Inventory.SetActive(true);
                 Time.timeScale = 0f;
+                Cursor.lockState = CursorLockMode.None;
+        
             }
             else
             {
                 Inventory.SetActive(false);
                 Time.timeScale = 1f;
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
