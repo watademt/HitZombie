@@ -44,9 +44,9 @@ public class InventoryManager : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, reachDistance))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Physics.Raycast(ray, out hit, reachDistance))
             {
                 if (hit.collider.gameObject.GetComponent<Item>() != null)
                 {
@@ -63,9 +63,13 @@ public class InventoryManager : MonoBehaviour
         {
             if (slot.item == _item)
             {
-                slot.amount += _amount;
-                slot.itemAmount.text = slot.amount.ToString();
-                return;
+                if (slot.amount + _amount <= _item.maxAmount)
+                {
+                    slot.amount += _amount;
+                    slot.itemAmountText.text = slot.amount.ToString();
+                    return;
+                }
+                break;
             }
         }
 
@@ -77,7 +81,7 @@ public class InventoryManager : MonoBehaviour
                 slot.amount = _amount;
                 slot.isEmpty = false;
                 slot.SetIcon(_item.icon);
-                slot.itemAmount.text = _amount.ToString();
+                slot.itemAmountText.text = _amount.ToString();
                 break;
             }
         }
