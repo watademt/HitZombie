@@ -10,5 +10,11 @@ public class ItemScriptableObject : ScriptableObject
     public string itemName;
     public int maxAmount;
     public Sprite icon;
+    public bool isConsumable;
+    public string inHandName;
+
+    [Header("Consumable Characteristics")]
+    public float changeHealth;
+    public float changeBuff;
 
 }

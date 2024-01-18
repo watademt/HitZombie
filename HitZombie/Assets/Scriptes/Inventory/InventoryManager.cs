@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public GameObject Inventory;
+    public GameObject UIBG;
     public Transform inventoryPanel;
     public List<InventorySlot> slots = new List<InventorySlot>();
     public bool isOpened;
     public Camera mainCamera;
     public float reachDistance = 3f;
+
     void Start()
     {
         for (int i = 0; i < inventoryPanel.childCount; i++)
@@ -19,7 +21,7 @@ public class InventoryManager : MonoBehaviour
                 slots.Add(inventoryPanel.GetChild(i).GetComponent<InventorySlot>());
             }
         }
-        Inventory.SetActive(false);
+        UIBG.SetActive(false);
     }
 
     void Update()
@@ -29,14 +31,16 @@ public class InventoryManager : MonoBehaviour
             isOpened = !isOpened;
             if (isOpened)
             {
-                Inventory.SetActive(true);
+                UIBG.SetActive(true);
+                inventoryPanel.gameObject.SetActive(true);
                 Time.timeScale = 0f;
                 Cursor.lockState = CursorLockMode.None;
         
             }
             else
             {
-                Inventory.SetActive(false);
+                UIBG.SetActive(false);
+                inventoryPanel.gameObject.SetActive(false);
                 Time.timeScale = 1f;
                 Cursor.lockState = CursorLockMode.Locked;
             }
