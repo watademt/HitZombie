@@ -17,3 +17,7 @@ MonoBehaviour:
   itemName: 
   maxAmount: 1
   icon: {fileID: 21300000, guid: 7e02d3f1104716448a68d38d4a0d5e03, type: 3}
+  isConsumable: 0
+  inHandName: "\u0440\u043E\u0437\u043E\u0447\u043A\u04301"
+  changeHealth: 0
+  changeBuff: 0
