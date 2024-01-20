@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1485033661919127732, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
       propertyPath: m_Name
-      value: Arrow Variant (3)
+      value: Arrow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1485033661919127739, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1485033661919127739, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56,9 +56,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2055562923975232855, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190373000217630580, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190373000217630580, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797812272251637675, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_Size.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797812272251637675, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_Size.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797812272251637675, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_Size.z
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797812272251637675, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4797812272251637675, guid: 9cf91ed6a1c1f3542abba4523b859489, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

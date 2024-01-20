@@ -52,7 +52,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         }
        
     }
-    void NullifySlotData()
+    public void NullifySlotData()
     {
         oldSlot.item = null;
         oldSlot.amount = 0;

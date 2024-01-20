@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class Arbalet : MonoBehaviour
 {
     public float Tension;
-    public bool _pressed;
+    public bool _pressed = false;
 
     public Transform RopeTransform;
 
@@ -16,10 +17,11 @@ public class Arbalet : MonoBehaviour
 
     public float ReturnTime; 
     public Bolt CurrentBolt;
-    private int BoltIndex = 0;
     public float BoltSpeed;
 
-    public Bolt[] BoltPool;
+    public Transform inventory;
+    public GameObject message;
+    private bool showMessage = false;
     void Start()
     {
         RopeNearLocPos = RopeTransform.localPosition;
@@ -28,15 +30,41 @@ public class Arbalet : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            _pressed = true;
-            BoltIndex++;
-            if(BoltIndex >= BoltPool.Length)
+            for (int i = 0; i < inventory.childCount; i++)
             {
-                BoltIndex = 0;
+                if(inventory.GetChild(i).GetComponent<InventorySlot>() == null)
+                {
+                    return;
+                }
+                if (inventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "Arrow Variant")
+                {
+                    if(inventory.GetChild(i).GetComponent<InventorySlot>().amount <= 1)
+                    {
+                        showMessage = false;
+                        _pressed = true;
+                        CurrentBolt.SetToRope(RopeTransform);
+                        inventory.GetChild(i).GetComponent<InventorySlot>().GetComponentInChildren<DragAndDropItem>().NullifySlotData();
+                    }
+                    else
+                    {
+                        showMessage = true;
+                        _pressed = true;
+                        CurrentBolt.SetToRope(RopeTransform);
+                        inventory.GetChild(i).GetComponent<InventorySlot>().amount--;
+                        inventory.GetChild(i).GetComponent<InventorySlot>().itemAmountText.text = inventory.GetChild(i).GetComponent<InventorySlot>().amount.ToString();
+                    }
+
+                }
             }
-            CurrentBolt = BoltPool[BoltIndex];
-            CurrentBolt.SetToRope(RopeTransform);
+            if(showMessage == false)
+            {
+                SpawnMessage(message);
+            }
+
         }
+       
+            
+        
         if (Input.GetMouseButtonDown(0))
         {
             _pressed = false;
@@ -52,6 +80,11 @@ public class Arbalet : MonoBehaviour
             }
             RopeTransform.localPosition = Vector3.Lerp(RopeNearLocPos, RopeFarLocPos, Tension);
         }
+    }
+
+    private void SpawnMessage(GameObject gameObject)
+    {
+        Instantiate(gameObject);
     }
     IEnumerator RopeReturn()
     {
