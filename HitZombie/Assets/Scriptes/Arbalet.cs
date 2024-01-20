@@ -20,6 +20,7 @@ public class Arbalet : MonoBehaviour
     public float BoltSpeed;
 
     public Transform inventory;
+    public Transform quickSlotInventory;
     public GameObject message;
     private bool showMessage = false;
     void Start()
@@ -30,40 +31,14 @@ public class Arbalet : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            for (int i = 0; i < inventory.childCount; i++)
-            {
-                if(inventory.GetChild(i).GetComponent<InventorySlot>() == null)
-                {
-                    return;
-                }
-                if (inventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "Arrow Variant")
-                {
-                    if(inventory.GetChild(i).GetComponent<InventorySlot>().amount <= 1)
-                    {
-                        showMessage = false;
-                        _pressed = true;
-                        CurrentBolt.SetToRope(RopeTransform);
-                        inventory.GetChild(i).GetComponent<InventorySlot>().GetComponentInChildren<DragAndDropItem>().NullifySlotData();
-                    }
-                    else
-                    {
-                        showMessage = true;
-                        _pressed = true;
-                        CurrentBolt.SetToRope(RopeTransform);
-                        inventory.GetChild(i).GetComponent<InventorySlot>().amount--;
-                        inventory.GetChild(i).GetComponent<InventorySlot>().itemAmountText.text = inventory.GetChild(i).GetComponent<InventorySlot>().amount.ToString();
-                    }
-
-                }
-            }
+            ShowBolt(inventory);
+            ShowBolt(quickSlotInventory);
             if(showMessage == false)
             {
                 SpawnMessage(message);
             }
 
         }
-       
-            
         
         if (Input.GetMouseButtonDown(0))
         {
@@ -79,6 +54,36 @@ public class Arbalet : MonoBehaviour
                 Tension+=Time.deltaTime;
             }
             RopeTransform.localPosition = Vector3.Lerp(RopeNearLocPos, RopeFarLocPos, Tension);
+        }
+    }
+
+    private void ShowBolt(Transform inventory)
+    {
+        for(int i = 0; i < inventory.childCount; i++)
+            {
+            if (inventory.GetChild(i).GetComponent<InventorySlot>().item == null)
+            {
+                return;
+            }
+            if (inventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "Arrow Variant")
+            {
+                if (inventory.GetChild(i).GetComponent<InventorySlot>().amount <= 1)
+                {
+                    showMessage = false;
+                    _pressed = true;
+                    CurrentBolt.SetToRope(RopeTransform);
+                    inventory.GetChild(i).GetComponent<InventorySlot>().GetComponentInChildren<DragAndDropItem>().NullifySlotData();
+                }
+                else
+                {
+                    showMessage = true;
+                    _pressed = true;
+                    CurrentBolt.SetToRope(RopeTransform);
+                    inventory.GetChild(i).GetComponent<InventorySlot>().amount--;
+                    inventory.GetChild(i).GetComponent<InventorySlot>().itemAmountText.text = inventory.GetChild(i).GetComponent<InventorySlot>().amount.ToString();
+                }
+
+            }
         }
     }
 

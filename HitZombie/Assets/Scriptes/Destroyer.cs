@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
+
     void Start()
     {
         StartCoroutine(DestroyMessage());
     }
     IEnumerator DestroyMessage()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(6.0f);
         Destroy(gameObject);
     }
 }
