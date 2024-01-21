@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public Text timeText;
     public GameObject UIBG;
+    public FirstPersonLook firstPersonLook;
 
     private bool isPaused = false;
 
@@ -18,6 +19,7 @@ public class PauseMenu : MonoBehaviour
         {
             if (!UIBG.activeSelf)
             {
+                firstPersonLook.enabled = false;
                 if (isPaused)
                 {
                     Resume();
@@ -37,6 +39,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.Locked;
         isPaused = false;
+        firstPersonLook.enabled = true;
     }
 
     void Pause()

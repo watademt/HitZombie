@@ -15,76 +15,82 @@ public class QuickslotInventory : MonoBehaviour
     public Transform itemContainer;
     public InventorySlot activeSlot = null;
     public Transform allWeapons;
+    public GameObject inventory;
+    public GameObject pauseMenu;
 
     void Update()
     {
         float mw = Input.GetAxis("Mouse ScrollWheel");
-        if (mw > 0.1)
+        if (!inventory.activeSelf && !pauseMenu.activeSelf)
         {
 
-            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
-
-            if (currentQuickslotID >= quickslotParent.childCount - 1)
+            if (mw > 0.1 && inventory.activeSelf)
             {
-                currentQuickslotID = 0;
-            }
-            else
-            {
-                currentQuickslotID++;
-            }
 
-            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
-            activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
-            ShowItemInHand();
+                quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
 
-        }
-        if (mw < -0.1)
-        {
-
-            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
-
-            if (currentQuickslotID <= 0)
-            {
-                currentQuickslotID = quickslotParent.childCount - 1;
-            }
-            else
-            {
-                currentQuickslotID--;
-            }
-
-            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
-            activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
-            ShowItemInHand();
-
-        }
-        for (int i = 0; i < quickslotParent.childCount; i++)
-        {
-            if (Input.GetKeyDown((i + 1).ToString()))
-            {
-                if (currentQuickslotID == i)
+                if (currentQuickslotID >= quickslotParent.childCount - 1)
                 {
-                    if (quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite == notSelectedSprite)
+                    currentQuickslotID = 0;
+                }
+                else
+                {
+                    currentQuickslotID++;
+                }
+
+                quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                ShowItemInHand();
+
+            }
+            if (mw < -0.1)
+            {
+
+                quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
+
+                if (currentQuickslotID <= 0)
+                {
+                    currentQuickslotID = quickslotParent.childCount - 1;
+                }
+                else
+                {
+                    currentQuickslotID--;
+                }
+
+                quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                ShowItemInHand();
+
+            }
+            for (int i = 0; i < quickslotParent.childCount; i++)
+            {
+                if (Input.GetKeyDown((i + 1).ToString()))
+                {
+                    if (currentQuickslotID == i)
                     {
-                        quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
-                        activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
-                        ShowItemInHand();
+                        if (quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite == notSelectedSprite)
+                        {
+                            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                            activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                            ShowItemInHand();
+                        }
+                        else
+                        {
+                            quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
+                            activeSlot = null;
+                            HideItemsInHand();
+
+                        }
                     }
                     else
                     {
                         quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
-                        activeSlot = null;
-                        HideItemsInHand();
+                        currentQuickslotID = i;
 
+                        quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                        activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                        ShowItemInHand();
                     }
-                }
-                else
-                {
-                    quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
-                    currentQuickslotID = i;
-
-                    quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
-                    activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
-                    ShowItemInHand();
                 }
             }
         }

@@ -11,7 +11,7 @@ public class InventoryManager : MonoBehaviour
     public bool isOpened;
     public Camera mainCamera;
     public float reachDistance = 3f;
-
+    public FirstPersonLook firstPersonLook;
     void Start()
     {
         for (int i = 0; i < inventoryPanel.childCount; i++)
@@ -31,6 +31,7 @@ public class InventoryManager : MonoBehaviour
             isOpened = !isOpened;
             if (isOpened)
             {
+                firstPersonLook.enabled = false;
                 UIBG.SetActive(true);
                 inventoryPanel.gameObject.SetActive(true);
                 Time.timeScale = 0f;
@@ -39,6 +40,7 @@ public class InventoryManager : MonoBehaviour
             }
             else
             {
+                firstPersonLook.enabled = true;
                 UIBG.SetActive(false);
                 inventoryPanel.gameObject.SetActive(false);
                 Time.timeScale = 1f;
