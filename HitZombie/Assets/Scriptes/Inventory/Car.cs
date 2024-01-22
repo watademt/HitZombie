@@ -14,35 +14,24 @@ public class Car : MonoBehaviour
 
     public void CheckFuelTank()
     {
+        ShowFuelTank(inventory);
+        ShowFuelTank(quickSlotInventory);
+    }
+    private void ShowFuelTank(Transform inventory)
+    {
         for (int i = 0; i < inventory.childCount; ++i)
         {
             if (inventory.GetChild(i).GetComponent<InventorySlot>().item == null)
             {
-                return;
+                continue;
             }
             if (inventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "FuelTank")
             {
                 end.SetActive(true);
                 Invoke("LoadScene", 1f);
-                break;
             }
 
         }
-        for (int i = 0; i < quickSlotInventory.childCount; ++i)
-        {
-            if (quickSlotInventory.GetChild(i).GetComponent<InventorySlot>().item == null)
-            {
-                return;
-            }
-            if (quickSlotInventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "FuelTank")
-            {
-                end.SetActive(true);
-                Invoke("LoadScene", 1f);
-                break;
-            }
-
-        }
-
     }
     void LoadScene()
         {
