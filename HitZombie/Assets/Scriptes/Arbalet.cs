@@ -40,6 +40,7 @@ public class Arbalet : MonoBehaviour
 
         }
         
+        if (quickSlotInventory.)
         if (Input.GetMouseButtonDown(0))
         {
             _pressed = false;
@@ -56,7 +57,7 @@ public class Arbalet : MonoBehaviour
             RopeTransform.localPosition = Vector3.Lerp(RopeNearLocPos, RopeFarLocPos, Tension);
         }
     }
-
+   
     private void ShowBolt(Transform inventory)
     {
         for(int i = 0; i < inventory.childCount; i++)
