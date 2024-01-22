@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.6f1 (10bfa6201ced) revision 1097638'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7549 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 7600 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\UnityHub\Editor\Unity 2022.2.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.2.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-G:/_GitHub/HitZombie/HitZombie/HitZombie
+C:/Users/Анна/Desktop/Учеба/3 курс/1 семестр/визуальное пргораммирование/HitZombie/HitZombie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50260
-Successfully changed project path to: G:/_GitHub/HitZombie/HitZombie/HitZombie
-G:/_GitHub/HitZombie/HitZombie/HitZombie
+52622
+Successfully changed project path to: C:/Users/Анна/Desktop/Учеба/3 курс/1 семестр/визуальное пргораммирование/HitZombie/HitZombie
+C:/Users/Анна/Desktop/Учеба/3 курс/1 семестр/визуальное пргораммирование/HitZombie/HitZombie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,63 @@ G:/_GitHub/HitZombie/HitZombie/HitZombie
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11468] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 439561628 [EditorId] 439561628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10536] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3608222999 [EditorId] 3608222999 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KGTCBH7Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11468] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 439561628 [EditorId] 439561628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4NQ24QL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10536] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3608222999 [EditorId] 3608222999 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KGTCBH7Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 20.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 230.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.6f1 (10bfa6201ced)
-[Subsystems] Discovering subsystems at path E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/_GitHub/HitZombie/HitZombie/HitZombie/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Анна/Desktop/Учеба/3 курс/1 семестр/визуальное пргораммирование/HitZombie/HitZombie/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
-    Vendor:   NVIDIA
-    VRAM:     3950 MB
-    Driver:   31.0.15.4633
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     3800 MB
+    Driver:   30.0.13044.10001
 Initialize mono
-Mono path[0] = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/Managed'
-Mono path[1] = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/UnityHub/Editor/Unity 2022.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007838 seconds.
-- Loaded All Assemblies, in  0.607 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018276 seconds.
+- Loaded All Assemblies, in  0.721 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.358 seconds
+- Finished resetting the current domain, in  0.468 seconds
 Domain Reload Profiling:
-	ReloadAssembly (444ms)
-		BeginReloadAssembly (203ms)
+	ReloadAssembly (461ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (204ms)
+			LoadAssemblies (219ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
-				TypeCache.Initialize (154ms)
-					TypeCache.ScanAssembly (152ms)
+			SetupTypeCache (248ms)
+				TypeCache.Initialize (247ms)
+					TypeCache.ScanAssembly (244ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (373ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,249 +111,56 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.412 seconds
-Refreshing native plugins compatible for Editor in 27.04 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Анна\Desktop\Учеба\3 курс\1 семестр\визуальное пргораммирование\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Анна\Desktop\Учеба\3 курс\1 семестр\визуальное пргораммирование\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.007 seconds
+Refreshing native plugins compatible for Editor in 15.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.017 seconds
+- Finished resetting the current domain, in  1.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (565ms)
-		BeginReloadAssembly (355ms)
+	ReloadAssembly (384ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (2ms)
-			CreateAndSetChildDomain (57ms)
-		LoadAllAssembliesAndSetupDomain (2926ms)
-			LoadAssemblies (1316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1728ms)
-				TypeCache.Initialize (1072ms)
-					TypeCache.ScanAssembly (762ms)
-				ResolveRequiredComponents (9ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (668ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (3ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 7.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.6 MB). Loaded Objects now: 4017.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 95.174400 ms (FindLiveObjects: 64.325300 ms CreateObjectMapping: 2.168700 ms MarkObjects: 14.656700 ms  DeleteObjects: 14.009800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 326.609030 seconds.
-  path: Assets/Scenes/Canvas.prefab
-  artifactKey: Guid(572a3298614402a4cb7abfaf645db856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Canvas.prefab using Guid(572a3298614402a4cb7abfaf645db856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf0514cda24567dd48cdd48d6306bf3') in 0.220642 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 504
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  5.766 seconds
-Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 14.680 seconds
-Domain Reload Profiling:
-	ReloadAssembly (235ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (58ms)
-		LoadAllAssembliesAndSetupDomain (5531ms)
-			LoadAssemblies (4698ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (891ms)
-				TypeCache.Initialize (407ms)
-					TypeCache.ScanAssembly (384ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (505ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.6 MB). Loaded Objects now: 4021.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 9.884900 ms (FindLiveObjects: 0.683200 ms CreateObjectMapping: 0.109900 ms MarkObjects: 5.800400 ms  DeleteObjects: 3.289400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.400 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.513 seconds
-Domain Reload Profiling:
-	ReloadAssembly (258ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		LoadAllAssembliesAndSetupDomain (1142ms)
-			LoadAssemblies (476ms)
+			CreateAndSetChildDomain (31ms)
+		LoadAllAssembliesAndSetupDomain (1607ms)
+			LoadAssemblies (752ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (751ms)
-				TypeCache.Initialize (299ms)
-					TypeCache.ScanAssembly (290ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (953ms)
+				TypeCache.Initialize (500ms)
+					TypeCache.ScanAssembly (494ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (478ms)
+			SetupLoadedEditorAssemblies (848ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.6 MB). Loaded Objects now: 4024.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 4.337300 ms (FindLiveObjects: 0.695900 ms CreateObjectMapping: 0.444500 ms MarkObjects: 2.987100 ms  DeleteObjects: 0.208600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.316 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.459 seconds
-Domain Reload Profiling:
-	ReloadAssembly (203ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		LoadAllAssembliesAndSetupDomain (1112ms)
-			LoadAssemblies (430ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (735ms)
-				TypeCache.Initialize (284ms)
-					TypeCache.ScanAssembly (277ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (520ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (392ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.6 MB). Loaded Objects now: 4027.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 4.958300 ms (FindLiveObjects: 0.519100 ms CreateObjectMapping: 0.127700 ms MarkObjects: 4.016300 ms  DeleteObjects: 0.292700 ms)
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.6 MB). Loaded Objects now: 4020.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 5.692200 ms (FindLiveObjects: 0.682000 ms CreateObjectMapping: 0.229300 ms MarkObjects: 4.197100 ms  DeleteObjects: 0.581200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -365,116 +174,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.799812 seconds.
-  path: Assets/Scenes/Map.unity
-  artifactKey: Guid(1604ee1c958679d4db9d7f4f05c54ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map.unity using Guid(1604ee1c958679d4db9d7f4f05c54ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccae2ad47c000dbcffbbfd5abd7343a') in 0.017075 seconds 
+  Time since last request: 192810.730473 seconds.
+  path: Assets/Scenes/First Person Controller Variant.prefab
+  artifactKey: Guid(b72d2b18ebc6ad249b6261791a0bc43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/First Person Controller Variant.prefab using Guid(b72d2b18ebc6ad249b6261791a0bc43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9712dbcde6a6a1b2b4188db2896e7bb') in 0.960915 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1903
+========================================================================
+Received Import Request.
+  Time since last request: 113.788591 seconds.
+  path: Assets/Scenes/End.unity
+  artifactKey: Guid(5f545e7da29f2e54a822d6005f19b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/End.unity using Guid(5f545e7da29f2e54a822d6005f19b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc33f0906630e75c1aa1f7145edda70a') in 0.001605 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 465.530464 seconds.
-  path: Assets/Prefabs/Env_Road_End_02 1.prefab
-  artifactKey: Guid(8297b10caad062944972a5f0887b68ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Env_Road_End_02 1.prefab using Guid(8297b10caad062944972a5f0887b68ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fed0e0bb806b57b3d8b7cfddfd26605') in 0.367510 seconds 
+  Time since last request: 96.905563 seconds.
+  path: Assets/Car/prefabs_With_Colliders
+  artifactKey: Guid(1e306faadb62beb4cbed8900b273e99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders using Guid(1e306faadb62beb4cbed8900b273e99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38902e91fbf4995320229ebb90963eb5') in 0.002244 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Prefabs/домик 5эт Variant.prefab
-  artifactKey: Guid(42aaeebc5baecbf43950241d47663168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/домик 5эт Variant.prefab using Guid(42aaeebc5baecbf43950241d47663168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac790348fc533dfec0d28aefde508af0') in 0.571216 seconds 
+  Time since last request: 0.056070 seconds.
+  path: Assets/Car/prefabs_With_Colliders/land.prefab
+  artifactKey: Guid(0f7404b4e5c26f74ea03a85e57a91c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/land.prefab using Guid(0f7404b4e5c26f74ea03a85e57a91c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ca86f3e485baa9b2072221c005909b') in 0.049195 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11268
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Prefabs/домик9эт Variant.prefab
-  artifactKey: Guid(55d60b43b3d60d6418cec6aad13d667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/домик9эт Variant.prefab using Guid(55d60b43b3d60d6418cec6aad13d667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54795dfd749d7e17068ea35edc806219') in 0.914187 seconds 
+  Time since last request: 1.048192 seconds.
+  path: Assets/Car/prefabs_With_Colliders/road_colliiders
+  artifactKey: Guid(2e381133a9337e840a01217717394d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/road_colliiders using Guid(2e381133a9337e840a01217717394d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865df74194794f89ca1517d2264417ee') in 0.001096 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21461
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Prefabs/van_1_black.prefab
-  artifactKey: Guid(be61926dfe424e64da6270507053668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/van_1_black.prefab using Guid(be61926dfe424e64da6270507053668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0184bcc26df05caa0e092aa32f952fad') in 0.073699 seconds 
+  Time since last request: 0.072150 seconds.
+  path: Assets/Car/prefabs_With_Colliders/road_colliiders/long_road_two_pavement.prefab
+  artifactKey: Guid(dbcb3f2073c1e9540a625703d8b79f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/road_colliiders/long_road_two_pavement.prefab using Guid(dbcb3f2073c1e9540a625703d8b79f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962d4a5f2fbfba363a57749e9ba3c3a') in 0.030450 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 4.267981 seconds.
+  path: Assets/Car/prefabs_With_Colliders/cars_colliiders
+  artifactKey: Guid(029d79393f9923042ad6b0f873efc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/cars_colliiders using Guid(029d79393f9923042ad6b0f873efc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbaf18dc7c25aaae0a36fb49f27e4f5') in 0.000990 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.305275 seconds.
+  path: Assets/Car/prefabs_With_Colliders/cars_colliiders/car
+  artifactKey: Guid(1ba2c50a78690834a9d8910ce516fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/cars_colliiders/car using Guid(1ba2c50a78690834a9d8910ce516fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecae3f185db917825f69890122ebd3e7') in 0.004999 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.571124 seconds.
+  path: Assets/Car/prefabs_With_Colliders/cars_colliiders/car/car_6
+  artifactKey: Guid(b585a9c28b85f3541a7a2d550f4fe4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/cars_colliiders/car/car_6 using Guid(b585a9c28b85f3541a7a2d550f4fe4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab12a49e38957c571c0fe3769ae61fb') in 0.000895 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035491 seconds.
+  path: Assets/Car/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
+  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98060d2e8350edbe0cdf0a108cfdd83') in 0.023477 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 73
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Prefabs/Rusty_Vehicles Variant.prefab
-  artifactKey: Guid(80e6a00e508638b4e8ea3fc82c1f24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rusty_Vehicles Variant.prefab using Guid(80e6a00e508638b4e8ea3fc82c1f24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1060d90d9489e9bf3576e08da7df172') in 0.037546 seconds 
+  Time since last request: 49.402278 seconds.
+  path: Assets/Prefabs/First Person Controller Variant.prefab
+  artifactKey: Guid(f1566f2ecf4adf5468859fb05c45daba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/First Person Controller Variant.prefab using Guid(f1566f2ecf4adf5468859fb05c45daba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0126a7a57d3217dda1c13517dbe20ba7') in 0.085216 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 107
+Number of asset objects unloaded after import = 249
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\_GitHub\HitZombie\HitZombie\HitZombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.507 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.384 seconds
-Domain Reload Profiling:
-	ReloadAssembly (285ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		LoadAllAssembliesAndSetupDomain (1222ms)
-			LoadAssemblies (508ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (807ms)
-				TypeCache.Initialize (359ms)
-					TypeCache.ScanAssembly (349ms)
-				ResolveRequiredComponents (9ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (607ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (12ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (439ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4038.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 7.282300 ms (FindLiveObjects: 0.639800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 6.171100 ms  DeleteObjects: 0.343700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/розочка1.fbx
+  artifactKey: Guid(b7dc4ecd15495c0409fa4a445454003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/розочка1.fbx using Guid(b7dc4ecd15495c0409fa4a445454003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cae97775368e49a966ebcfa09faeb8c') in 0.123547 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Material #2.mat
+  artifactKey: Guid(033daefedfcdcb74bb0f3e50b1d43d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Material #2.mat using Guid(033daefedfcdcb74bb0f3e50b1d43d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274c8ccfc6221b6dc98c34c94c8ae26a') in 0.105145 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �������� �����/������ ���� �������� ��-�� ���������� ������ ������ ��� �� ������� ����������.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
