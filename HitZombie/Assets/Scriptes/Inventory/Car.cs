@@ -10,6 +10,7 @@ public class Car : MonoBehaviour
     public GameObject noFuelTank;
     public bool checkInventory;
     public bool checkQuickSlotInventory;
+    public GameObject end;
 
     public void CheckFuelTank()
     {
@@ -21,7 +22,8 @@ public class Car : MonoBehaviour
             }
             if (inventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "FuelTank")
             {
-                SceneManager.LoadScene(2);
+                end.SetActive(true);
+                Invoke("LoadScene", 1f);
                 break;
             }
 
@@ -34,15 +36,16 @@ public class Car : MonoBehaviour
             }
             if (quickSlotInventory.GetChild(i).GetComponent<InventorySlot>().item.inHandName == "FuelTank")
             {
-                noFuelTank.SetActive(true);
-                Invoke("NoFuelTank", 5.0f);
+                end.SetActive(true);
+                Invoke("LoadScene", 1f);
                 break;
             }
 
         }
-        void NoFuelTank()
-        {
-            noFuelTank.SetActive(false);
-        }
+
     }
+    void LoadScene()
+        {
+            SceneManager.LoadScene(2);
+        }
 }
