@@ -40,7 +40,6 @@ public class Arbalet : MonoBehaviour
 
         }
         
-        if (quickSlotInventory.)
         if (Input.GetMouseButtonDown(0))
         {
             _pressed = false;
