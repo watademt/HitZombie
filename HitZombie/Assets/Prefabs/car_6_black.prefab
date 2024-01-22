@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4409781804365507256}
   - component: {fileID: 3925275767522439173}
+  - component: {fileID: 7873890732432579251}
   m_Layer: 0
   m_Name: car_6_black
   m_TagString: Untagged
@@ -256,6 +257,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7873890732432579251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3925275767522439170}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 1.3, z: 4.3}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &4192389841198196011
 GameObject:
   m_ObjectHideFlags: 0

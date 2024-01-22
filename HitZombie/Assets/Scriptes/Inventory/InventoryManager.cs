@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -12,6 +13,11 @@ public class InventoryManager : MonoBehaviour
     public Camera mainCamera;
     public float reachDistance = 3f;
     public FirstPersonLook firstPersonLook;
+    public GameObject hint;
+    public bool checkHint;
+    public GameObject carHint;
+    public bool checkCarHint;
+    public Car car;
     void Start()
     {
         for (int i = 0; i < inventoryPanel.childCount; i++)
@@ -50,15 +56,38 @@ public class InventoryManager : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Physics.Raycast(ray, out hit, reachDistance))
         {
-            if (Physics.Raycast(ray, out hit, reachDistance))
+            if (hit.collider.gameObject.GetComponent<Item>() != null)
             {
-                if (hit.collider.gameObject.GetComponent<Item>() != null)
+                hint.SetActive(true);
+                checkHint = true;
+                if (Input.GetKeyDown(KeyCode.F))
                 {
                     AddItem(hit.collider.gameObject.GetComponent<Item>().item, hit.collider.gameObject.GetComponent<Item>().amount);
-                    Destroy(hit.collider.gameObject);
+                    Destroy(hit.collider.gameObject); 
+                    hint.SetActive(false);
+                    checkHint = false;
                 }
+            }
+            else if (checkHint)
+            {
+                hint.SetActive(false);
+                checkHint = false;
+            }
+            if (hit.collider.gameObject.GetComponent<Car>() != null)
+            {
+                carHint.SetActive(true);
+                checkCarHint = true;
+                if (Input.GetKeyDown(KeyCode.F))
+                {
+                    car.CheckFuelTank();
+                }
+            }
+            else if (checkCarHint)
+            {
+                carHint.SetActive(false);
+                checkCarHint = false;
             }
 
         }
