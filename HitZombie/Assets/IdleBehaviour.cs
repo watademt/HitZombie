@@ -22,7 +22,7 @@ public class IdleBehaviour : StateMachineBehaviour
         if (timer > x)
         { 
         animator.SetBool("IsPatrolling", true);
-            x = Random.Range(3, 15);
+            x = Random.Range(1, 7);
         }
         float distance = Vector3.Distance(animator.transform.position, player.position);
         if (distance < chaseRange)

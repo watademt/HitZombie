@@ -36,7 +36,7 @@ public class PatrolBehaviour : StateMachineBehaviour
         if (timer > x)
         {
             animator.SetBool("IsPatrolling", false);
-            x = Random.Range(10, 30);
+            x = Random.Range(5, 45);
         }
         float distance = Vector3.Distance(animator.transform.position, player.position);
         if (distance < chaseRange)
