@@ -14,7 +14,7 @@ public class ChaseBehaviour : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
-        agent.speed = 3;
+        agent.speed = 2;
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -40,7 +40,7 @@ public class ChaseBehaviour : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent.SetDestination(agent.transform.position);
-        agent.speed = 0.4f;
+        agent.speed = 0.3f;
     }
 
 }

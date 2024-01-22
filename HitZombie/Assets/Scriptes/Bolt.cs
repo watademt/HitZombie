@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bolt : MonoBehaviour
 {
     public Rigidbody Rigidbody;
+    public AudioSource audioSource;
 
     public void SetToRope(Transform ropeTransform)
     {
@@ -16,6 +17,8 @@ public class Bolt : MonoBehaviour
     }
     public void Shot(float velocity)
     {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
         transform.parent=null;
         Rigidbody.isKinematic = false;
         Rigidbody.velocity=transform.forward*velocity;

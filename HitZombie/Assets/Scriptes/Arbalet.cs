@@ -14,6 +14,7 @@ public class Arbalet : MonoBehaviour
     public Vector3 RopeFarLocPos;
 
     public AnimationCurve RopeReturnAnim;
+    public AudioSource audioSource;
 
     public float ReturnTime; 
     public Bolt CurrentBolt;
@@ -73,9 +74,13 @@ public class Arbalet : MonoBehaviour
                     _pressed = true;
                     CurrentBolt.SetToRope(RopeTransform);
                     inventory.GetChild(i).GetComponent<InventorySlot>().GetComponentInChildren<DragAndDropItem>().NullifySlotData();
+                    audioSource = GetComponent<AudioSource>();
+                    audioSource.Play();
                 }
                 else
                 {
+                    audioSource = GetComponent<AudioSource>();
+                    audioSource.Play();
                     showMessage = true;
                     _pressed = true;
                     CurrentBolt.SetToRope(RopeTransform);

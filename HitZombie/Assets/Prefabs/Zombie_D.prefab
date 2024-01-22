@@ -67,9 +67,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: 33cde5dedf316774b863a5bef8509f18, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -78,7 +78,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 3
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1856a718cffdb48a89c9c8648135fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myClip: {fileID: 0}
+  mySource: {fileID: 491872876120301068}
   x: 0
 --- !u!1001 &8540664058949875449
 PrefabInstance:
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: a4de311361606be4a87777b5e867a9b5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: a4de311361606be4a87777b5e867a9b5, type: 3}
       propertyPath: m_LocalPosition.x
